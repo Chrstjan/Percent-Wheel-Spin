@@ -1,0 +1,46 @@
+#wheel-container .wheel-outline {
+  padding: 11rem 11rem;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 7px solid #fff;
+}
+
+#wheel-container .wheel-middle {
+  padding: 1.3rem 1.3rem;
+  display: block;
+  background: #333;
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .wheel-middle .wheel-blade {
+  padding: 4rem 2rem;
+  display: block;
+  background: #999;
+  border-radius: 30%;
+  position: fixed;
+  top: -40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.wheel-outline .wheel-blade {
+  border: 4px solid red;
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 4rem 1rem 4rem;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 100%;
+  background: red;
+}
